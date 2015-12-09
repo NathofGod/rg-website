@@ -6,9 +6,11 @@ script:
 - node buildsite
 deploy:  
   provider: azure_web_apps
-  skip_cleanup: true
   on:
    node: '0.11' # this should be quoted; otherwise, 0.10 would not work
 cache:
   directories:
   - node_modules
+before_deploy:
+- git add /public/build/.
+- git commit -m "build files added"
