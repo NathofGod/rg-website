@@ -19,6 +19,7 @@
     "express-session": "^1.11.3",
     "handlebars": "^4.0.5",
     "hbs": "^4.0.0",
+    "highlight": "^0.2.4",
     "stylus": "^0.52.4"
   },
   "devDependencies": {
