@@ -6,6 +6,7 @@ script:
 - node buildsite
 deploy:  
   provider: azure_web_apps
+  skip_cleanup: true
   on:
    node: '0.11' # this should be quoted; otherwise, 0.10 would not work
 cache:
