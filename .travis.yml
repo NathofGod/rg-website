@@ -11,6 +11,5 @@ deploy:
 cache:
   directories:
   - node_modules
-before_deploy:
-- git add /public/build/.
-- git commit -m "build files added"
+ 
+ 
