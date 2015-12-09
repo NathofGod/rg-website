@@ -23,6 +23,7 @@
     "hbs": "^4.0.0",
     "highlight": "^0.2.4",
     "lodash": "^3.10.1",
+    "serve-favicon": "^2.3.0",
     "stylus": "^0.52.4"
   },
   "devDependencies": {
